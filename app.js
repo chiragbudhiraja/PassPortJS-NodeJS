@@ -63,5 +63,5 @@ app.use("/" , routes );
 app.use("/users" , users );
 
 app.listen(PORT , ()=>{
-    console.log("Running on http://localhost:"+PORT+"");
+    console.log("Running on http://localhost:${PORT}");
 })
