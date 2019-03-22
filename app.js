@@ -6,7 +6,7 @@ const routes = require("./routes/index");
 
 const users  = require("./routes/users");
 
-const PORT = process.env.PORT | 5000;
+const PORT = process.env.PORT || 5000;
 
 const expressLayouts = require("express-ejs-layouts");
 
